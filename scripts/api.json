@@ -1,0 +1,29 @@
+[
+    {
+      "id": 0,
+      "imgSrc": "img/htmlycss.png",
+      "nombre": "Curso básico de HTML y CSS",
+      "nivelTag":"<span class='badge badge-secondary'>Basico</span>",
+      "cantidadClases": 18,
+      "horasCursada": 36,
+      "precio": 3500
+    },
+    {
+      "id": 1,
+      "imgSrc": "img/javascript.jpg",
+      "nombre": "Curso básico de JavaScript",
+      "nivelTag":"<span class='badge badge-primary'>Intermedio</span>",
+      "cantidadClases": 22,
+      "horasCursada": 44,
+      "precio": 3700
+    },
+    {
+      "id": 2,
+      "imgSrc": "img/node.jpg",
+      "nombre": "Curso completo de Node JS",
+      "nivelTag":"<span class='badge badge-warning'>Avanzado</span>",
+      "cantidadClases": 40,
+      "horasCursada": 80,
+      "precio": 6800
+    }
+  ]

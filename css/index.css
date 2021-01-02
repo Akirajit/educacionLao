@@ -1,0 +1,155 @@
+html{
+    scroll-behavior:smooth;
+  }
+li {
+list-style: none;
+}
+ul {
+    padding-left: 0;
+}
+
+
+
+:target::before {
+    content: "";
+    display: block;
+    height: 126px; /* fixed header height*/
+    margin: -126px 0 0; /* negative fixed header height */
+  }
+
+#header img {
+    width: 100px;
+}
+
+.active {
+    color: #9cb3e9 !important;
+}
+
+#main  {
+    margin-top: 126px;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(75%);
+}
+
+.btn-lao {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+}
+
+.btn-lao:hover {
+   opacity: 0.7;
+   color: white;
+   text-decoration: none;
+}
+
+#carousel {
+    position: relative;
+}
+#carousel .overlay{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+#carousel .overlay .container, #carousel .overlay .container .row{
+ height: 100%;
+}
+
+.negrita {
+    font-weight: bold;
+}
+#listado-cursos .resaltado {
+    font-style: italic;
+}
+
+#carrito{
+    text-align: center;
+}
+
+#quienes-somos  {
+    margin-top: 150px;
+    background-color: #f8f9fa;
+}
+
+
+#quienes-somos img {
+    width: 100%;
+}
+
+
+
+
+#footer ul  {
+    padding-left: 0;
+ }
+#footer ul li {
+    list-style: none;
+}
+
+#footer {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+#footer a {
+    color: white;
+}
+
+/* MODAL */
+#codigo-descuento-error{
+    color: red;
+}
+#codigo-descuento-ok {
+    color: #019901;
+}
+#imprimirCuota {
+    color: red;
+}
+
+strike {
+    opacity: 0.3;
+}
+/* /MODAL */
+
+
+#grilla {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+
+#grillaContainer {
+    border: 1px solid gray;
+    padding: 4rem ;
+    margin-top:20px;
+}
+
+#itemsCarrito {
+    color: red;
+}
+
+#cancelarCompraBtn {
+    margin-left: 20px;
+}
+
+#continuarCompraBtn {
+    margin-left: 20px;
+}
+
+#seccionFinalizarCompra {
+   background-color: rgb(243, 243, 243);
+   margin: 100px auto;
+   padding: 50px;
+}
+
+#cuponDescuentoInput {
+    margin-bottom: 40px;
+}
