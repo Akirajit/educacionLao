@@ -30,7 +30,7 @@ class carritoCompras {
                           </tr>                         
                             `
                             subtotal += cursos[j].precio
-                            total += cursos[j].precio
+                            
                         }
 
                     }

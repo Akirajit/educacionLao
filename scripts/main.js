@@ -45,9 +45,13 @@ function cargarCursos(tarjetas) {
 document.body.onload = function (){
     cargarCursos(listadoCursos)
     ocultarGrilla()
-    if (enCarrito !=null){
+
+    if (!("enCarrito" in localStorage)){
+        localStorage.setItem("enCarrito",JSON.stringify(carrito))
+    }
+
+    else {
         carrito =  JSON.parse(localStorage.getItem("enCarrito"))
-        
     }   
    
 } 
