@@ -1,2 +1,4 @@
-Proyecto Final para el curso de JavaScript en @CoderHouse
+## EDUCACION LAO
+
+Modelo de E-Commerce hecho con HTML, CSS y Javascript.
 
